@@ -1,0 +1,14 @@
+{
+  "name": "tdd-agents",
+  "displayName": "TDD Agents",
+  "description": "Test-first workflow for Claude Code where tests, code and review are written by separate agents. Hooks stop the implementer from touching tests or switching lint off; every task leaves a metrics row: time, cost, interventions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ruslan Makhortykh",
+    "email": "makhortykh.ruslan@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Makhortykh-Ruslan/tdd-agents",
+  "repository": "https://github.com/Makhortykh-Ruslan/tdd-agents",
+  "keywords": ["tdd", "subagents", "hooks", "code-review", "metrics", "workflow"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "tdd-agents",
+  "owner": {
+    "name": "Ruslan Makhortykh",
+    "email": "makhortykh.ruslan@gmail.com"
+  },
+  "description": "Test-first workflow where tests, code and review are written by separate agents, with per-task metrics",
+  "plugins": [
+    {
+      "name": "tdd-agents",
+      "source": "./plugins/tdd-agents",
+      "description": "Plan with the engineer, then test-writer, implementer and reviewer subagents, guarded by hooks, with a metrics row per task"
+    }
+  ]
+}
